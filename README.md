@@ -1,6 +1,4 @@
-I've made test-task for front-end developer around September 2018 using React. I should do tickets-rendering
 
-Test-task: 
 
 ## Тестовое задание Aviasales ([frontend](https://aviasales.recruitee.com/o/frontend-developer-js-coffeescript-react%C2%A0redux--aviasalesru))
 
