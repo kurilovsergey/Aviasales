@@ -1,0 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+
+body{
+  background-color: #F2F2F2;
+  font-family: Open Sans, Tahoma, sans-serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 0.1fr  0.1fr;
+  grid-gap: 20px;
+  padding-left: 300px;
+}
+
+.logoaviasales{
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 82px;
+}
+
+.tikets{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(91, 137, 164, 0.25);
+    border-radius: 5px;
+    height: 161px;
+    width: 566px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font: sans-serif;
+    margin-bottom: 20px;
+}
+
+.sidebar{
+  width: 238px;
+  height: 400px;
+  background-color: white;
+  padding: 20px 0px 20px 0px;
+  box-sizing: border-box;
+  box-shadow: 0 0 3px 0 hsla(0, 0%, 62%, .5);
+}
+
+.sidebar_title{
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.sidebar_currency-btns{
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.sidebar_currency-btn{
+  display: none;
+}
+
+.sidebar_currency-label{
+  box-sizing: border-box;
+  width: 33%;
+  padding: 10px 20px 10px 20px;
+  cursor: pointer;
+  border: 1px solid #8b9497;
+  font-size: 12px;
+}
+.sidebar_currency-label:hover{
+  background-color: #f2fcff;
+  border: 1px solid #2196f3;
+  color:  #8b9497;
+}
+.sidebar_currency-btn:checked +.sidebar_currency-label{
+  border: 1px solid #2196f3;
+  background-color: #2196f3;
+  color: white;
+}
+
+.sidebar_currency-label--usd{
+  border-radius: 0px;
+}
+.sidebar_currency-label--rub{
+  border-radius: 5px 0px 0px 5px;
+}
+.sidebar_currency-label--eur{
+  border-radius: 0px 5px 5px 0px;
+}
+
+.sidebar_changing-block{
+  position: relative;
+}
+
+.sidebar_changing-block:hover{
+  background-color: #f1fcff;
+}
+
+.sidebar_changing-checkbox{
+  display: none;
+}
+
+.sidebar_changing-label{
+  display: block;
+  margin-left: 50px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.sidebar_changing-label::before{
+  display: block;
+  content: "";
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  top: 7px;
+  left: -30px;
+  border: 1px solid #8b9497;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.sidebar_changing-check:hover{
+  border: 1px solid #2196f3;
+  background-color: white;
+}
+.sidebar_changing-checkbox:hover + .sidebar_changing-block {
+  border: 1px solid #2196f3;
+}
+
+.sidebar_changing-checkbox:checked + .sidebar_changing-label{
+  color: #2196f3;
+}
+.sidebar_changing-checkbox:checked + .sidebar_changing-label::before{
+  color: #2196f3;
+  border-color: #2196f3;
+  content: "✓";
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#logo{
+    margin-left: 42px;
+    margin-top: 25px;
+    height: 35px;
+    width: 120px;
+    background-color: black;
+}
+
+#logo img{
+  height: 35px;
+  width: 120px;
+}
+
+#btn{
+    height: 56px;
+    width: 160px;
+    margin-left: 20px;
+    margin-bottom:  25px;
+    margin-top: 20px;
+    background: #FF6D00;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1), 0px 1px 0px #D64D08;
+    border-radius: 5px;
+    
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#originname{
+    margin-left: 25px;
+}
+
+.time{
+  font-size: 33px;
+  font-weight: 400;
+  color: #4a4a4a;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.city{
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #4a4a4a;
+}
+
+.dataflight{
+  font-size: 11px;
+  color: #8b9497;
+}
